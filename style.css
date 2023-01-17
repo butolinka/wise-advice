@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1505685679686-2490cab6217d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 100vh;
+    }
+button{
+    font-family: 'Podkova', serif;
+    font-size: 25px;
+    width: 40%;
+    height: 50px;
+    background-color: honeydew;
+    color: brown;
+}
+
+p{
+    font-family: 'Podkova', serif;
+    display: none;
+    font-size: 20px;
+    background-color: honeydew;
+    margin-top: 100px;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    border: solid gray 1px;
+    padding-top: 20px;
+    color: darkslategray;
+    font-weight: 800;
+}
+
+@media all and (max-width:800px){
+
+    .container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 650px;
+        justify-content: flex-start;
+        }
+    button, p{
+        font-size: 15px;
+        padding: 5px;
+    }
+}
